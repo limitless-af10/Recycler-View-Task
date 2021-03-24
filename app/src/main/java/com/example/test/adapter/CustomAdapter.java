@@ -47,7 +47,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     /**
      * Initialize the dataset of the Adapter.
      *
-     * @param dataSet String[] containing the data to populate views to be used
+     * @param dataSet containing the data to populate views to be used
      * by RecyclerView.
      */
     public CustomAdapter(UsersResponse dataSet) {
