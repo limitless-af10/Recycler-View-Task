@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ProgressBar
+        android:id="@+id/load"
+        android:layout_width="71dp"
+        android:layout_height="70dp"
+        android:indeterminate="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:text="Fragment to access API"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Users"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="47dp"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching Users"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="310dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#AC0B0B"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="500dp"
+        android:enabled="false"
+        android:text="Refresh Users" />
+
+</RelativeLayout>
